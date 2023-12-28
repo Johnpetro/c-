@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<br><br><br>
+
+<div class="container" >
+    <div class="row">
+    <!-- Product Card -->
+     <!-- Product Card -->
+     <div class="product-card col-xs-2">
+            <div class="badge">New</div>
+                <div class="product-tumb">
+                    <a href="more.php?toolId=' . $id . '"><img src="../image/' . $image . '"></a>
+                 </div>
+                <div class="product-details">
+                     <span class="product-catagory">Item</span>
+                        <h4><a href="#">'.$name.'</a></h4>
+           
+                   <p>Product description goes here</p>
+                   <div class="product-bottom-details">
+                     <div class="product-price"><small>Tsh</small>'.$price.'/=<small>Per day </small></div>
+                            <div class="product-links">
+                                <a href="#"><i class="fa fa-heart"></i></a>
+                            </div>
+                         </div>
+                    </div>
+     </div> 
+
+      <div class="product-card col-xs-2">
+            <div class="badge">New</div>
+                <div class="product-tumb">
+                    <a href="more.php?toolId=' . $id . '"><img src="../image/' . $image . '"></a>
+                 </div>
+                <div class="product-details">
+                     <span class="product-catagory">Item</span>
+                        <h4><a href="#">'.$name.'</a></h4>
+                          <p>Product description goes here</p>
+                   <div class="product-bottom-details">
+                     <div class="product-price"><small>Tsh</small>'.$price.'/=<small>Per day </small></div>
+                            <div class="product-links">
+                                <a href="#"><i class="fa fa-heart"></i></a>
+                            </div>
+                         </div>
+                    </div>
+     </div> 
+                            
+                                
+    </div>
+</div>
+
+

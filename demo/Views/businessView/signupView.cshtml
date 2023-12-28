@@ -1,0 +1,75 @@
+
+
+ <div class="container">
+        <div class="col-md-8 shadow  rounded bg-light  dd my-5 ">
+            <p class="text-center h2">Register form</p>
+
+            <form class="my-3" method="POST">
+                <div class="form-row">
+                  <div class="col-md-4 my-5 mb-3">
+                    @* <label for="validationServer01">First name</label> *@
+                    <input style="height: 46px; "  type="text" class="form-control shadow bg-white border-0 <?php echo $FnameErr ? 'is-invalid' : null; ?> " id="validationServer01" name="Fname"placeholder="first name" required   >
+                    <div class="invalid-feedback">
+                      
+                    </div>
+                  </div>
+                  <div class="col-md-4 my-5 mb-3">
+                    <label for="validationServer02">Last name</label>
+                    <input style="height: 46px; " type="text" class="form-control shadow bg-white border-0 <?php echo $LnameErr ? 'is-invalid' : null; ?> " name="Lname" id="validationServer02"    >
+                    <div class="invalid-feedback">
+               
+                    </div>
+                  </div>
+                  <div class="col-md-3 my-5 mb-3">
+                    <label for="validationServerUsername">Username</label>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                       
+                      </div>
+                      <input style="height: 46px; " type="text" class="form-control shadow bg-white border-0 <?php echo $UsernameErr ? 'is-invalid' : null; ?>" name="Username" id="validationServerUsername" aria-describedby="inputGroupPrepend3"    >
+                      <div class="invalid-feedback">
+                     
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group my-3">
+                    <label for="colFormLabel" >Email</label>
+                    <input style="height: 46px;" type="email" class="form-control shadow bg-white border-0 <?php echo $EmailErr ? 'is-invalid' : null; ?>" name="Email" id="colFormLabel" placeholder="Email">
+                    <div class="invalid-feedback">
+                       
+                    </div>
+                </div>
+                <div class="form-group my-3">
+                    <label for="colFormLabel" >password</label>
+                    <input style="height: 46px;" type="password" class="form-control shadow bg-white border-0 <?php echo $PasswordErr ? 'is-invalid' : null; ?>" name="password" id="colFormLabel" placeholder="Password"    >
+                    <div class="invalid-feedback">
+                      
+                    </div>
+                </div>
+                <div class="form-group my-3">
+                    <label for="colFormLabel" >Phone</label>
+                    <input style="height: 46px;" type="text" class="form-control shadow bg-white border-0 <?php echo $phoneErr ? 'is-invalid' : null; ?>" name="phone" id="colFormLabel" placeholder="Phone">
+                    <div class="invalid-feedback">
+                       
+                    </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-6 my-5 mb-3">
+                    <label for="validationServer03">City</label>
+                    <input style="height: 46px;" type="text" class="form-control shadow bg-white border-0 <?php echo $LocationErr ? 'is-invalid' : null; ?> " name="Location" id="validationServer03">
+                      <div class="invalid-feedback">
+                       
+                    </div>
+
+                   
+                  </div>
+                  </div>
+
+
+                <button class="btn btn-primary" name="signin" type="submit">Submit form</button>
+              </form><br><br>
+
+
+        </div>
+    </div>

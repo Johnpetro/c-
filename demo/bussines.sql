@@ -1,0 +1,18 @@
+-- -- CREATE TABLE EMP(
+-- -- ID INT NOT NULL PRIMARY KEY,
+-- -- NAME TEXT NOT NULL,
+-- -- EMAIL TEXT NOT NULL);
+-- -- SELECT * FROM EMP;
+
+-- INSERT INTO EMP(NAME,EMAIL) 
+-- VALUES ("Sam","jOHN@GMAIL.COM");
+
+
+-- CREATE TABLE USER(id INTEGER NOT NULL PRIMARY KEY,
+-- empname TEXT NOT NULL ,
+-- email NOT NULL);
+
+
+-- INSERT INTO USER(id,empname,email) 
+-- VALUES (1,"Sam","test@test.com");
+SHOW TABLE;
