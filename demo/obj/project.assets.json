@@ -3510,11 +3510,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\demo\\demo.csproj",
+      "projectUniqueName": "C:\\Users\\H P 1030 G4\\Desktop\\UDICT\\gitproject\\csharp\\demo\\demo.csproj",
       "projectName": "demo",
-      "projectPath": "E:\\demo\\demo.csproj",
+      "projectPath": "C:\\Users\\H P 1030 G4\\Desktop\\UDICT\\gitproject\\csharp\\demo\\demo.csproj",
       "packagesPath": "C:\\Users\\H P 1030 G4\\.nuget\\packages\\",
-      "outputPath": "E:\\demo\\obj\\",
+      "outputPath": "C:\\Users\\H P 1030 G4\\Desktop\\UDICT\\gitproject\\csharp\\demo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\H P 1030 G4\\AppData\\Roaming\\NuGet\\NuGet.Config"
